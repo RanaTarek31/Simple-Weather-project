@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet" />
+    <!-- fontawsome css file -->
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <!-- bootstrap css file -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <!-- main css file -->
+    <link rel="stylesheet" href="./css/main.css" />
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark py-4">
+        <div class="container">
+            <a class="navbar-brand d-flex" href="#">
+                <img src="./images/logo.png" alt="Logo" width="64" height="38" class="d-inline-block align-text-top" />
+                <div class="logo-type ms-3">
+                    <h1 class="site-title mb-0 text-white">Weather</h1>
+                    <small class="site-description text-white">tagline goes here</small>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active text-info border-info border-opacity-100;" aria-current="page"
+                            href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#News">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Live Cameras">Live Cameras</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Photos">Photos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section>
+        <div class="site-image">
+            <div class="container">
+                <h2>3-Day Weather Forecast</h2>
+                <div class="input-container">
+                    <input type="text" id="city-input" placeholder="Enter city name">
+                    <button id="search-button">Search</button>
+                </div>
+                <div id="weather-cards" class="cards-container">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="footer">
+        <div class="container-fluid ms-5">
+            <div class="row">
+                <div class="col-md-8">
+                    <form action="#" class="subscribe-form">
+                        <input type="text" id="city-input" placeholder="Enter your email to subscribe">
+                        <button id="search-button">Subscribe</button>
+                    </form>
+                </div>
+
+                <div class="col-md-3 col-md-offset-1">
+                    <div class="social-links">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-google-plus"></i></a>
+                        <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- bootstrap js file -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <!-- fontawsome js file -->
+    <script src="./js/all.min.js"></script>
+    <!-- main js file -->
+    <script src="./js/index.js"></script>
+</body>
+
+</html>

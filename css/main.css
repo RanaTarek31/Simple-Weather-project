@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: #bfc1c8;
+  font-family: "Roboto", "Open Sans", sans-serif;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+.nav-item .nav-link {
+  margin-left: 10px;
+}
+
+#navbarNav ul li a {
+  padding: 3px 20px;
+  border: 2px solid transparent;
+  border-radius: 30px;
+  color: white;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+  font-weight: 400;
+}
+
+#navbarNav ul li:hover a {
+  border-color: #009ad8;
+  color: #009ad8;
+}
+
+h1 {
+  color: #ffa318;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: sans-serif;
+  margin-bottom: 40px;
+}
+
+h2 {
+  color: #ffa318;
+  font-size: 35px;
+  font-weight: 600;
+  font-family: sans-serif;
+  margin-bottom: 30px;
+}
+
+.site-description {
+  font-size: 10px;
+}
+
+section .site-image {
+  background-image: url(../images/banner.png);
+  background-size: cover;
+  padding: 70px 0;
+  min-height: 350px;
+}
+.container {
+  margin: 20px auto;
+  /* padding: 20px; */
+  text-align: center;
+}
+
+.input-container {
+  margin-bottom: 20px;
+}
+
+input {
+  width: 60%;
+  padding: 15px 50px 15px 20px;
+  background: #1e202b;
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 30px;
+}
+
+button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.weather-card {
+  background: #323544ab;
+  border: 1px solid #242323;
+  border-radius: 10px;
+  padding: 20px;
+  width: 250px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  color: white;
+  font-size: 16px;
+}
+
+.weather-card img {
+  width: 60px;
+  height: 60px;
+}
+
+.footer {
+  background: #262936;
+  padding: 50px 0;
+}
+
+.footer .social-links a {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  border-radius: 50%;
+  background: #1e202b;
+  color: #009ad8;
+  text-align: center;
+  line-height: 2;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+  font-size: 20px;
+  font-size: 1.4285714286em;
+  margin-right: 20px;
+}
+.fa {
+  display: inline-block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
